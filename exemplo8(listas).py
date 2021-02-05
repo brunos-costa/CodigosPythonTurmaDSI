@@ -29,3 +29,5 @@ print(pessoasBkp,"\n\n")
 pessoas.clear()# limpa a lista
 # del(pessoas) -> excluir a variável lista
 print(pessoas,"\n\n")
+
+
