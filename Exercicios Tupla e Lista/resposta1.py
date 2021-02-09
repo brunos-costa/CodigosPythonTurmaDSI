@@ -7,6 +7,8 @@ for cont in range(1,13):
 
 media = sum(temp)/cont
 
+print(f"A média anual de temperatura foi {media:.2f}\n")
+
 for indice,cont in enumerate(temp):
     if cont > media:
         print(f"{mes[indice]:.<10}: {cont}")

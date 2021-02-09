@@ -25,7 +25,7 @@ while True:
     elif op == 1:
         frutas.append(input("Informe uma nova fruta: "))
     elif op == 2:
-        valor = int(input("Qual a posição da fruta você deseja remover? "))
+        valor = int(input("Qual a posição da fruta que você deseja remover? "))
 
         frutas.pop(valor)
 
